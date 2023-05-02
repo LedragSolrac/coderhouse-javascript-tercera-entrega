@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería de Don Claudio</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Las mejores delicias de repostería</h1>
+    </header>
+    
+    <main>
+        <input type="text" id="user-name" placeholder="Por Favor, Ingrese su Nombre">
+        <button onclick="returnText()"> Aplicar Nombre </button>
+        <span id="insufficient-funds-alert"></span>
+        <br>
+        <span>Bienvenido, <strong id="customer-name"></strong>!</span>
+        <span>Saldo disponible: $</span><span id="current-balance"></span>
+        <span class="encouraging-text">Usted ha gastado un total de: $0</span><span> &#40</span><span id="selva-negra-purchased">0 Selva/s Negra/s, </span><span id="lemon-pie-purchased">0 Lemon Pie/s, </span><span id="tiramisu-purchased">0 Tiramisú/es</span><span>&#41 .</span>
+        <div>
+            <div>
+                <span>Selva Negra</span>
+                <button id="selva-negra">$2000</button>
+            </div>
+            <div>
+                <span>Lemon Pie</span>
+                <button id="lemon-pie">$1500</button>
+            </div>
+            <div>
+                <span>Tiramisú</span>
+                <button id="tiramisu">$3000</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="./js/cakes.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
